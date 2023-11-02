@@ -1,0 +1,27 @@
+{
+    "name": "download-tiktok-video",
+    "version": "1.0.0",
+    "description": "A tool to download TikTok videos",
+    "main": "index.js",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "author": "snifirst",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "serialize-javascript": "^6.0.1",
+        "shell-quote": "^1.8.1",
+        "sockjs": "^0.3.24",
+        "tough-cookie": "^4.1.3",
+        "yargs-parser": "^21.1.1"
+    },
+    "devDependencies": {
+        "react-scripts": "^3.0.1"
+    }
+}

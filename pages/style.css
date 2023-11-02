@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .progress {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
