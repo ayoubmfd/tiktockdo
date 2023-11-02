@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./style.css";
+
+const nthCheck = new RegExp('^' + nth.replace(/\\/g, '\\\\') + '$');
 const DownloadTikTokVideo = () => {
   const [videoUrl, setVideoUrl] = useState("");
   const [isDownloading, setIsDownloading] = useState(false);
